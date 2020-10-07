@@ -1,0 +1,105 @@
+<html lang="en">
+
+<head>
+    <title>card_0.png (400×250)</title>
+    <style>
+        body {
+            border: 5px solid black;
+            width: 500px;
+            height: 360px;
+        }
+        
+        #tr01 {
+            background-color: red;
+            color: white;
+        }
+        
+        #t02,
+        div {
+            padding-left: 25px;
+            padding-right: 25px;
+            width: 500px;
+            height: 100px;
+            font-family: Arial;
+        }
+        
+        #t03 {
+            border-color: red;
+            border-collapse: collapse;
+            font-size: 29px;
+        }
+        
+        #f01 {
+            font-family: Arial;
+        }
+        
+        #bd {
+            border-top: 2px solid black;
+        }
+        
+        #f02 {
+            font-family: Brush Script MT;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr id="tr01">
+            <td id="t03" style="text-align: right;font-family:'Times New Roman';margin-left: 15px;"><strong>Yes! I want to subscribe to</strong></td>
+            <td id="t03" style="text-align: right;font-family: Arial;font-style: italic;margin-left: 15px;"><strong>Mag-o-Zine</strong></td>
+        </tr>
+    </table>
+    <table id="t02">
+        <tr>
+            <td id="f02" style="text-align: center;">Joe</td>
+            <td id="f02" style="text-align: center;">Schmegeggie</td>
+        </tr>
+
+        <tr id="f01">
+            <td id="bd">First Name</td>
+            <td id="bd">Last Name</td>
+        </tr>
+
+        <tr>
+            <td id="f02" colspan="3" style="padding-left: 30px;">1001 Washington Street</td>
+        </tr>
+
+        <tr id="f01">
+            <td colspan="3 " style=" border-top: 2px solid black; ">Address</td>
+        </tr>
+
+        <tr>
+            <td id="f02" style=" padding-left: 30px;">A-town</td>
+            <td id="f02" style=" padding-left: 30px;">CA</td>
+            <td id="f02" style=" padding-left: 30px;">99999</td>
+        </tr>
+
+        <tr id="f01">
+            <td style="border-top: 2px solid black; ">City</td>
+            <td style="border-top: 2px solid black; ">State</td>
+            <td style="border-top: 2px solid black; ">Zip</td>
+        </tr>
+
+    </table>
+    <hr noshade="noshade" size="0px" width="0px">
+    <div>
+        <label><strong>Subscribe for:</strong></label>
+        <input type="checkbox" id="1yr" name="1yr" value="1yr">
+        <label for="1yr"><strong>1 year ($19.95)</strong></label>
+        <input type="checkbox" id="2yr" name="2yr" value="2yr">
+        <label for="2yr"><strong>2 years ($35.00)</strong></label><br>
+        <hr noshade="noshade" size="0px" width="0px">
+        <label><strong>Send me more information about:</strong></label><br>
+        <input type="checkbox" id="comp" name="comp" value="comp">
+        <label for="comp"><strong>Computer-Zine</strong></label><br>
+        <input type="checkbox" id="fish" name="fish" value="fish">
+        <label for="fish"><strong>Fishing-Zine</strong></label><br>
+        <input type="checkbox" id="cat" name="cat" value="cat">
+        <label for="cat"><strong>Cat-O-Zine</strong></label>
+    </div>
+
+</body>
+
+</html>
